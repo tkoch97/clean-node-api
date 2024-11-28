@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "standard-with-typescript"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "tsconfigRootDir": "./" // Garante que o ESLint encontre o tsconfig
+  },
+  "rules": {
+    // Personalize regras conforme necessidade, por exemplo:
+    "@typescript-eslint/no-unused-vars": "error",
+    "no-console": "warn"
+  }
+}

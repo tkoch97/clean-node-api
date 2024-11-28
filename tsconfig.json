@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "strict": true, // Habilita todas as verificações estritas, incluindo strictNullChecks
+    "strictNullChecks": true, // Ativa explicitamente o strictNullChecks
     "outDir": "./dist",
     "module": "commonjs",
     "target": "es2019",

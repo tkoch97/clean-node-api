@@ -7,8 +7,6 @@
     "tsconfigRootDir": "./" // Garante que o ESLint encontre o tsconfig
   },
   "rules": {
-    // Personalize regras conforme necessidade, por exemplo:
-    "@typescript-eslint/no-unused-vars": "error",
-    "no-console": "warn"
+    "@typescript-eslint/prefer-nullish-coalescing": "off"
   }
 }

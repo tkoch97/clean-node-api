@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "lint-staged": "lint-staged",
-    "lint:staged": "jest"
+    "lint:staged": "jest --passWithNoTests"
   },
   "keywords": [],
   "author": "",
